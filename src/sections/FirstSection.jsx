@@ -48,34 +48,27 @@ export default function FirstSection() {
     <div className="text-white md:my-44 my-24 mx-0">
       <div className="flex md:flex-row flex-col justify-between">
         <div className="">
-          {/* <h1 className="md:text-[7vh] text-[3vh] font-[400]" style={{backgroundImage: "linear-gradient(to right, #000000, #7ED6DF)"}}>
-            From Concept To Creation -<br /> "Transforming Ideas into Captivating Visual Stories"
-          </h1> */}
-          <LinearGradient gradient={["to right","#923CB5,#808080"]} className="md:text-[7vh] text-[4vh] font-bold font-sans">
-          Your One-Stop Solution <br/>for Content Creation Success
+          
+          <LinearGradient gradient={["to right","#923CB5,#808080"]} className="md:text-[7vh] text-[4vh] font-[650] font-lato">
+            Your One-Stop Solution <br/>for Content Creation Success
           </LinearGradient><br/>
-          {/* <LinearGradient gradient={["to right","#166D3B,#808080"]} className="md:text-[5vh] text-[3vh] font-[400] mt-[-10] font-antonio">
-            Crafting Your Digital Identity -<br/> "Let Us Amplify Your Presence on YouTube and Instagram"
-          </LinearGradient><br/>
-          <LinearGradient gradient={["to right","#923CB5,#808080"]} className="md:text-[5vh] text-[3vh] font-[400]">
-            "Your One-Stop <br/>Solution for Content Creation Success"
-          </LinearGradient> */}
+          
         </div>
 
-        <div className="relative left-[190px] top-32 md:top-0 md:left-0">
-          <div className="md:w-56 w-42 md:h-56 h-30 relative md:bottom-24 bottom-32 left-12 md:left-[-35px]">
+        <div className="relative left-[350px] top-32 md:top-0 md:left-0 ">
+          <div className="md:w-56 w-32 md:h-56 h-32 relative md:bottom-24 bottom-32 right-72 md:right-20">
             <ImageCubeEffect
               images={images[1]}
               style={"md:h-56 h-32 w-full object-cover rounded-full"}
             />
           </div>
-          <div className="h-28 md:h-48 w-28 md:w-48 relative top-[-30px] md:top-[-110px] bottom-10 md:left-48">
+          <div className="h-28 md:h-48 w-28 md:w-48 relative bottom-56 right-28 md:right-0 md:left-40">
             <ImageCubeEffect
               images={images[2]}
               style={"md:h-48 h-28 w-full object-cover rounded-full"}
             />
           </div>
-          <div className="w-44 md:w-64 h-44 md:h-64 relative bottom-56 right-66 md:left-[-70px]">
+          <div className="w-44 md:w-64 h-44 md:h-64 relative bottom-56 right-56 md:left-10">
             <ImageCubeEffect
               images={images[3]}
               style={"md:h-64 h-44 w-44 md:w-64 object-cover rounded-full"}
