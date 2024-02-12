@@ -1,4 +1,3 @@
-import React from "react";
 import TwoCardsEffect from "../components/TwoCardsEffect";
 import { LinearGradient } from "react-text-gradients";
 import useScreenSize from "../utils/screenSize";
@@ -10,7 +9,7 @@ export default function ContactPage() {
       {screenSize === "small" ? (
         <h1 className="text-3xl font-medium my-0">
           Meet{" "}
-          <LinearGradient gradient={["to bottom", "#ffb701 ,#ff341e"]}>
+          <LinearGradient gradient={["to bottom", "#fdde00 ,#ffffff"]}>
             The Founder
           </LinearGradient>
         </h1>
@@ -18,7 +17,7 @@ export default function ContactPage() {
       <div className="p-2 relative">
         <TwoCardsEffect
           width={"fit"}
-          bg={"bg-gradient-to-r from-yellow-500 to-red-600"}
+          bg={"bg-gradient-to-r from-yellow-500 to-white-600"}
           rotate1={"-rotate-[5deg]"}
           rotate2={"rotate-[5deg]"}
         >
@@ -28,16 +27,15 @@ export default function ContactPage() {
             className="w-[65vh] h-[70vh] rounded-xl object-cover"
           />
         </TwoCardsEffect>
-        <div className="bg-gradient-to-r from-yellow-500 to-red-600 py-2 absolute bottom-[500px] md:bottom-[540px] w-fit md:right-56 right-[160px] text-black font-medium -rotate-[5deg] rounded-xl px-10 text-sm md:text-[16px] whitespace-nowrap right-0 left-0">
+        <div className="bg-gradient-to-r from-yellow-500 to-white-600 py-2 absolute bottom-[500px] md:bottom-[540px] w-fit md:right-56 right-[160px] text-black font-medium -rotate-[5deg] rounded-xl px-10 text-sm md:text-[16px] whitespace-nowrap right-0 left-0">
           <h1>Nithish Malhotra</h1>
           <div className="flex justify-between items-center">
             <a href="">
               <svg
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
                 viewBox="0 0 1024 1024"
-                class="text-xl"
+                className="text-xl"
                 height={
                   screenSize === "large" || screenSize === "medium"
                     ? "1.5em"
@@ -53,9 +51,8 @@ export default function ContactPage() {
               <svg
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
                 viewBox="0 0 1024 1024"
-                class="text-xl"
+                className="text-xl"
                 height={
                   screenSize === "large" || screenSize === "medium"
                     ? "1.5em"
@@ -76,7 +73,7 @@ export default function ContactPage() {
         {screenSize === "large" || screenSize === "medium" ? (
           <h1 className="text-3xl font-medium my-8">
             Meet{" "}
-            <LinearGradient gradient={["to bottom", "#ffb701 ,#ff341e"]}>
+            <LinearGradient gradient={["to bottom", "#fdde00 ,#ffffff"]}>
               The Founder
             </LinearGradient>
           </h1>
@@ -85,7 +82,7 @@ export default function ContactPage() {
       <h1 className="text-5xl md:text-4xl font-medium my-4">
         Nithish Malhotra
         </h1>
-        <p className="text-2xl md:text-xl -mt-4 text-orange-400 font-medium">
+        <p className="text-2xl md:text-xl -mt-4 text-white-400 font-medium">
           250,000+ Youtube | 150,000+ Instagram
         </p>
         <p className="text-[20px] md:text-2xl my-4 md:my-10 font-light mb-56 md:mb-48">

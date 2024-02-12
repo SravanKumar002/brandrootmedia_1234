@@ -1,5 +1,3 @@
-import React from "react";
-import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { LinearGradient } from "react-text-gradients";
 import ImageCubeEffect from "../components/ImageCubeEffect";
 import TwoCardsEffect from "../components/TwoCardsEffect";
@@ -38,7 +36,7 @@ const brands = [
   "https://growthrocket.media/_next/image?url=%2Fbrands%2Favisa.jpg&w=256&q=75",
   "https://growthrocket.media/_next/image?url=%2Fbrands%2Fadilqadri.png&w=256&q=75",
   "https://growthrocket.media/_next/image?url=%2Fbrands%2Fvitra.png&w=256&q=75",
-  "https://growthrocket.media/_next/image?url=%2Fbrands%2Fiquanta.png&w=256&q=75",
+  // "https://growthrocket.media/_next/image?url=%2Fbrands%2Fiquanta.png&w=256&q=75",
   "https://growthrocket.media/_next/image?url=%2Fbrands%2Fnavi.png&w=256&q=75",
   "https://growthrocket.media/_next/image?url=%2Fbrands%2Faism.png&w=128&q=75",
 ];
@@ -49,12 +47,11 @@ export default function FirstSection() {
       <div className="flex md:flex-row flex-col justify-between">
         <div className="">
           
-          <LinearGradient gradient={["to right","#923CB5,#808080"]} className="md:text-[7vh] text-[4vh] font-[650] font-lato">
+          <LinearGradient gradient={["to right","#fdde00,#ffffff"]} className="md:text-[6vh] text-[4vh] font-[700] font-lato">
             Your One-Stop Solution <br/>for Content Creation Success
           </LinearGradient><br/>
           
         </div>
-
         <div className="relative left-[350px] top-32 md:top-0 md:left-0 ">
           <div className="md:w-56 w-32 md:h-56 h-32 relative md:bottom-24 bottom-32 right-72 md:right-20">
             <ImageCubeEffect
@@ -80,7 +77,7 @@ export default function FirstSection() {
       <div className="my-16">
         <h1 className="text-3xl md:text-6xl font-medium tracking-tight">
           Brands That{" "}
-          <LinearGradient gradient={["to right", "#ffb701 ,#ff341e"]}>
+          <LinearGradient gradient={["to right", "#fdde00 ,#ffffff"]}>
             Trust Us
           </LinearGradient>
         </h1>

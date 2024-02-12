@@ -1,4 +1,3 @@
-import React from "react";
 import { LinearGradient } from "react-text-gradients";
 import vid1 from "../assets/videos/1.mp4";
 import vid2 from "../assets/videos/2.mp4";
@@ -20,7 +19,7 @@ export default function Portfolio() {
     <div id="portfolio" className="mx-5 mb-36">
       <h1 className="text-[30px] md:text-[55px] font-medium tracking-tight leading-[32px] md:leading-[60px]">
         We create the highest quality content for brands.{" "}
-        <LinearGradient gradient={["to right", "#ffb701 ,#ff341e"]}>
+        <LinearGradient gradient={["to right", "#fdde00 ,#ffffff"]}>
           And we will do the same for you
         </LinearGradient>
       </h1>
@@ -44,16 +43,16 @@ export default function Portfolio() {
               <video
                 src={e}
                 className=""
-                // width={
-                //   screenSize === "medium" || screenSize === "large"
-                //     ? "320"
-                //     : "500"
-                // }
-                // height={
-                //   screenSize === "medium" || screenSize === "large"
-                //     ? "190"
-                //     : "350"
-                // }
+                width={
+                  screenSize === "medium" || screenSize === "large"
+                    ? "320"
+                    : "500"
+                }
+                height={
+                  screenSize === "medium" || screenSize === "large"
+                    ? "190"
+                    : "350"
+                }
                 autoPlay
                 muted
                 controls
@@ -66,17 +65,17 @@ export default function Portfolio() {
         <div>
           <h1 className="text-[30px] md:text-[55px] font-medium tracking-tight leading-[32px] md:leading-[60px] mt-36">
             Numbers that speak{" "}
-            <LinearGradient gradient={["to right", "#ffb701 ,#ff341e"]}>
+            <LinearGradient gradient={["to right", "#fdde00 ,#ffffff"]}>
               louder than words
             </LinearGradient>
           </h1>
           <div>
-            <TwoCardsEffect
-              rotate1={"-rotate-[2deg]"}
-              rotate2={"rotate-[2deg]"}
+            {/* <TwoCardsEffect
+              rotate1={"-rotate-[1deg]"}
+              rotate2={"rotate-[1deg]"}
               children={
-                <div className="py-10">
-                  <div className="text-black text-4xl flex md:flex-row flex-col gap-10 md:justify-around font-semibold">
+                <div className="py-7">
+                  <div className="text-white text-4xl flex md:flex-row flex-col gap-10 md:justify-around font-semibold">
                     <p className="text-center">
                       25 Million+ <br />
                       <span className="text-2xl">Views</span>
@@ -92,7 +91,28 @@ export default function Portfolio() {
                   </div>
                 </div>
               }
-            />
+            /> */}
+              <TwoCardsEffect
+  rotate1={"-rotate-[1deg]"}
+  rotate2={"rotate-[1deg]"}>
+  <div className="py-7">
+    <div className="text-white text-4xl flex md:flex-row flex-col gap-10 md:justify-around font-semibold">
+      <p className="text-center">
+        25 Million+ <br />
+        <span className="text-2xl">Views</span>
+      </p>
+      <p className="text-center">
+        200,000 Hours+ <br />{" "}
+        <span className="text-2xl">Watch Time</span>
+      </p>
+      <p className="text-center">
+        10 Million+ <br />{" "}
+        <span className="text-2xl">Audience</span>
+      </p>
+    </div>
+  </div>
+</TwoCardsEffect>
+
           </div>
         </div>
       </div>

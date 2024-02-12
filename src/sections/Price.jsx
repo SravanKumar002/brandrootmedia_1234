@@ -64,7 +64,7 @@ export default function Price() {
     <div className="">
       <h1 className="text-[55px] font-medium tracking-tight leading-[60px] mb-12">
         Select Your Package To Build A{" "}
-        <LinearGradient gradient={["to right", "#ffb701 ,#ff341e"]}>
+        <LinearGradient gradient={["to right", "#fdde00 ,#ffffff"]}>
           Viral Brand
         </LinearGradient>
       </h1>
@@ -93,7 +93,7 @@ export default function Price() {
               </div>
             ))}
           </div>
-          <button className="mt-10 text bg-gradient-to-br from-yellow-500 to-red-600 text-black font-semibold px-5 py-2 rounded flex gap-3 items-center">
+          <button className="mt-10 text bg-gradient-to-br from-yellow-500 to-white-600 text-black font-semibold px-5 py-2 rounded flex gap-3 items-center">
             Book Call
             <img
               src="https://growthrocket.media/assets/right-arrow.svg"
@@ -103,7 +103,7 @@ export default function Price() {
           </button>
         </div>
         <div className="bg-white border-[7px] border-[#ffb701] flex-1 rounded-[13px] p-7 overflow-visible">
-          <p className="bg-gradient-to-r from-yellow-500 to-red-600 w-fit px-3 py-2 -mt-[50px] rounded-lg text-lg font-medium text-white tracking-wide">
+          <p className="bg-gradient-to-r from-yellow-500 to-white-600 w-fit px-3 py-2 -mt-[50px] rounded-lg text-lg font-medium text-white tracking-wide">
             Best For Growing Brands
           </p>
           <div className="flex  items-center gap-4 ">
@@ -132,7 +132,7 @@ export default function Price() {
               </div>
             ))}
           </div>
-          <button className="mt-10 text bg-gradient-to-br from-yellow-500 to-red-600 text-black font-semibold px-5 py-2 rounded flex gap-3 items-center">
+          <button className="mt-10 text bg-gradient-to-br from-yellow-500 to-white-600 text-black font-semibold px-5 py-2 rounded flex gap-3 items-center">
             Book Call
             <img
               src="https://growthrocket.media/assets/right-arrow.svg"
@@ -143,7 +143,7 @@ export default function Price() {
         </div>
 
         <div className="bg-white border-[7px] border-[#ffb701] flex-1 rounded-[13px] p-7">
-          <p className="bg-gradient-to-r from-yellow-500 to-red-600 w-fit px-3 py-2 -mt-[50px] rounded-lg text-lg font-medium text-white tracking-wide">
+          <p className="bg-gradient-to-r from-yellow-500 to-white-600 w-fit px-3 py-2 -mt-[50px] rounded-lg text-lg font-medium text-white tracking-wide">
             Best For Growing Brands
           </p>
           <div className="flex  items-center gap-4 ">
@@ -169,7 +169,7 @@ export default function Price() {
               </div>
             ))}
           </div>
-          <button className="mt-10 text bg-gradient-to-br from-yellow-500 to-red-600 text-black font-semibold px-5 py-2 rounded flex gap-3 items-center">
+          <button className="mt-10 text bg-gradient-to-br from-yellow-500 to-white-600 text-black font-semibold px-5 py-2 rounded flex gap-3 items-center">
             Book Call
             <img
               src="https://growthrocket.media/assets/right-arrow.svg"

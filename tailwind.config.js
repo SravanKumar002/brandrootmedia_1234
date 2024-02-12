@@ -4,8 +4,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['lato'],
-        mono :['Montserrat, sans-serif']
+        'rust' : ['rust'],
+        'antonio' : ['antonio'],
+        'montserrat': ['Montserrat'],
+        'lato': ['Lato'],
+        'poppins' : ['poppins'],
+        'garamond': ['Garamond']
       },
       fontWeight: {
         bold: '700',

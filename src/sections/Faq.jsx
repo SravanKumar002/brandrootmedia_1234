@@ -1,5 +1,3 @@
-import React from "react";
-import up from "../assets/arrows/up.png";
 import FaqCard from "../components/FaqCard";
 
 const FAqs = [
@@ -53,9 +51,9 @@ export default function Faq() {
         FAQs
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-7 gap-y-0">
-        {FAqs.map((e, i) => (
-          <FaqCard question={e.Q} answer={e.A} />
-        ))}
+      {FAqs.map((e) => (
+        <FaqCard key={e.id} question={e.Q} answer={e.A} />
+      ))}
       </div>
     </div>
   );

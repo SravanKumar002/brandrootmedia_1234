@@ -1,34 +1,45 @@
-import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import ServiceCard from "../components/ServiceCard";
 import { LinearGradient } from "react-text-gradients";
 import ClientCard from "../components/ClientCard";
+import { Keyboard, Navigation, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/scrollbar";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
-const cards = [
+const more_cards = [
   {
-    h: "Content Production",
-    p: "Our team will shoot high quality videos for your content.",
+    h: "vertical content",
+    p: "Our visual design experts will create aesthetic designs that stand out",
+  },
+  {
+    h: "360 Youtube",
+    p: "Ideate and create relatable videos that resonated with the audience in youtube",
+  },
+  {
+    h: "360 Instagram",
+    p: "End-to-end social media management to optimize content and drive engagement.",
+  },
+  {
+    h: "Graphic Designing",
+    p: "Graphic Designing specializes in crafting captivating the innovative ideas.",
+  },
+  {
+    h: "Research & Writing",
+    p: "For each content, we will do the research and write compelling copies for you.",
+    images : "https://growthrocket.media/_next/image?url=%2Ft111.jpg&w=384&q=75"
   },
   {
     h: "Video Editing",
     p: "We will create captivating videos using fast paced video editing.",
   },
   {
-    h: "Research & Writing",
-    p: "For each content, we will do the research and write compelling copies for you.",
-  },
-  {
-    h: "Graphics Designing",
-    p: "Our visual design experts will create aesthetic designs that stand out",
-  },
-  {
-    h: "Meme Marketing",
-    p: "Ideate and create relatable memes that resonated with the audience",
-  },
-  {
-    h: "Social Media Management",
-    p: "End-to-end social media management to optimize content and drive engagement",
-  },
+    h: "Thumbnail Designing",
+    p: "For each particular content we will design thumbnails accordingly",
+  }
 ];
+
 
 const clients = [
   {
@@ -53,23 +64,64 @@ const clients = [
 
 export default function Services() {
   return (
-    <div className="mt-56 mb-36">
+    <div className="mt-56 mb-36" id="services">
       <h1 className="text-4xl md:text-[55px] font-medium tracking-tight leading-[35px] md:leading-[60px]">
-        Here's what we will do for you
+        Here's what <LinearGradient gradient={["to right", "#fdde00 ,#ffffff"]}>we will do for you</LinearGradient>
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-16 gap-x-36 gap-y-14 px-8 md:px-0">
-        {cards.map((e, i) => (
-          <ServiceCard key={i} h={e.h} p={e.p} />
+      <div className="flex gap-20 my-4 mt-16 gap-x-40 gap-y-40 px-8 md:px-0 ">
+        <Swiper
+          loop={true}
+          slidesPerView={4}
+          centeredSlides={false}
+          slidesPerGroupSkip={1}
+          grabCursor={true}
+          keyboard={{
+            enabled: true,
+          }}
+          autoplay={{
+            delay: 2000, // specify autoplay delay in milliseconds
+            disableOnInteraction: true, // enable autoplay even after user interaction
+          }}
+          breakpoints={{
+            769: {
+              slidesPerView: 3,
+              slidesPerGroup: 1,
+            },
+          }}
+            navigation={{
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            }}
+          spaceBetween={300}
+          modules={[Keyboard, Navigation, Autoplay]}
+          className="mySwiper px-20 py-10"
+        >
+        {more_cards.map((e, i) => (
+          <SwiperSlide key={i} className="p-4">
+            <ServiceCard
+              key={i}
+              h={e.h}
+              p={e.p}
+              className="flex justify-center items-center w-20 h-20 mx-2"
+              autoPlay
+              muted
+            controls
+          />
+        </SwiperSlide>
         ))}
-      </div>
+        <div className="swiper-button-next text-slate-100 animate-bounce-left"></div>
+        <div className="swiper-button-prev text-slate-100 animate-bounce-right"></div>
+      </Swiper>
 
-      <div className="my-56">
+       </div>
+      <div className="my-56" id="clientwords">
         <h1 className="text-3xl md:text-[55px] font-medium tracking-tight  md:leading-[60px] mb-7 md:mb-20">
           Hear from our{" "}
-          <LinearGradient gradient={["to right", "#ffb701 ,#ff341e"]}>
+          <LinearGradient gradient={["to right", "#fdde00 ,#ffffff"]}>
             Happy Clients
           </LinearGradient>{" "}
         </h1>
+        <Swiper>
         <div className="flex flex-col md:flex-row justify-between gap-20">
           {clients.map((e, i) => (
             <ClientCard
@@ -81,6 +133,7 @@ export default function Services() {
             />
           ))}
         </div>
+        </Swiper>
       </div>
     </div>
   );

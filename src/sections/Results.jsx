@@ -1,4 +1,3 @@
-import React from "react";
 import { LinearGradient } from "react-text-gradients";
 import TiltCard from "../components/TiltCard";
 import TwoCardsEffect from "../components/TwoCardsEffect";
@@ -6,22 +5,23 @@ import TwoCardsEffect from "../components/TwoCardsEffect";
 export default function Results() {
   return (
     <div className="mx-5 my-64">
-      <h1 className="text-[55px] font-medium tracking-tight leading-[60px] mt-36">
-        Stories of our brands that saw{" "}
-        <LinearGradient gradient={["to right", "#ffb701 ,#ff341e"]}>
-          exponential growth
+      <h1 className="text-[50px] font-medium tracking-tight leading-[60px] mt-36">
+      Success Stories: Brands Thriving with{" "}
+        <LinearGradient gradient={["to right", "#fdde00 ,#ffffff"]}>
+        Brandroot Media
         </LinearGradient>{" "}
       </h1>
       <div>
         <div className="md:w-[71%] w-full">
           <TiltCard
             image={"https://growthrocket.media/brands/fisdom.svg"}
-            title={"1100% increase in views within 45 days"}
+            title={"Brandroot Media: We help businesses achieve their marketing goals."}
             para={
-              "Fisdom's Instagram reels used to get an average of 300-400 organic views. After partnering with us, their average views on reels skyrocketed to 3500 in less than 45 days."
+              "Brandroot Media is a full-service marketing agency that specializes in content creation, video editing, and graphic design. We have a team of experienced professionals who can help you create high-quality content that will engage your target audience and achieve your marketing goals."
             }
+            cta = {" Contact Brandroot Media today for a free consultation."}
             imgStyle={"h-fit"}
-            imgContainerStyle={
+            imgContainerStyle={ 
               "bg-[#ecc86c] md:py-20 py-24 md:m-0 m-6 w-fit flex justify-center items-center p-3 rounded-md"
             }
           />
@@ -43,58 +43,67 @@ export default function Results() {
         </div>
         <div className="md:w-[71%] w-full">
           <TiltCard
-            image={"https://growthrocket.media/rangde.svg"}
+            image={"https://ik.imagekit.io/7saglhzb5/Bard_Generated_Image%20(2).jpg?updatedAt=1707545512358"}
             title={"800% more virality and 6x growth in average views"}
             para={
-              "RangDe created a reel in house on one of their success stories and it got 6800 views. We created a reel on the exact same topic and it went viral with over 61,000 views! Plus a 6x growth in average views on reels."
+              "Brandroot Media Agency created a reel in-house on one of their success stories and it got 6,800 views. We created a reel on the exact same topic and it went viral with over 61,000 views! Plus, a 6x growth in average views on reels."
             }
-            imgStyle={"h-[125px] object-cover"}
+            imgStyle={"h-[100%] w-[100%]] object-cover"}
             imgContainerStyle={
-              "bg-[#ecc86c] h-44 md:w-full w-[65%] m-3 md:m-0 flex justify-center items-center p-1 rounded-md "
+              "bg-[#ecc86c] h-44 md:w-half w-[85%] m-3 md:m-0 flex justify-center items-center p-1 rounded-md "
             }
           />
         </div>
       </div>
       <div className="flex md:flex-row flex-col-reverse gap-24 my-44">
-        <div className="rounded-md bg-gradient-to-br from-yellow-500 to-red-600 -rotate-[5deg]">
+        <div className="rounded-md from-yellow-500 to-white-600 -rotate-[4deg] my-[90px]">
           <img
-            src="https://growthrocket.media/_next/image?url=%2Freel_thumb.jpg&w=1920&q=75"
+            src="https://ik.imagekit.io/7saglhzb5/Bard_Generated_Image%20(1).jpg?updatedAt=1707541730472"
             alt=""
-            className="w-[500px] rounded-md rotate-[5deg] border border-red-900"
+            className="w-[400px] rounded-md rotate-[5deg] border border-white-900 md:mt-11 mt-[-5px]"
           />
         </div>
         <div className="w-[90%]">
-          <p className="text-red-600 text-lg md:text-2xl md:leading-[70px] leading-[24px] mb-5 md:mb-0">
-            IF YOUR BUSINESS ISN'T ON INSTAGRAM, IT SHOULD BE.
+          <p className="text-white-600 md:text-4xl text-2xl md:leading-[70px] leading-[24px] mb-5 md:mb-20 md:ml-[-220px] font-bold">
+            <LinearGradient gradient={["to right", "#fdde00 ,#ffffff"]}>Brandroot Media - Your Online Creative Hub</LinearGradient>
           </p>
-          <h1 className="md:text-[55px] text-[40px] font-medium tracking-normal leading-[40px] md:leading-[60px]">
-            If your business is on <br /> Instagram,
-            <LinearGradient gradient={["to right", "#ffb701 ,#ff341e"]}>
+          <h1 className="md:text-[30px] md:text-[40px] text-2xl font-medium tracking-normal md:leading-[10px] md:leading-[35px]">
+            If your brand isn't leveraging Instagram,<br/>
+            <LinearGradient gradient={["to right", "#fdde00 ,#ffffff"]}>
               {" "}
-              engage your followers daily.
+              it's time to make a powerful shift. And if you're already there, let's elevate your presence daily.
             </LinearGradient>
+            {/* If youit's time to make a powerful shift. And if you're already there, let's elevate your presence daily.it's time to make a powerful shift. And if you're already there, let's elevate your presence daily. brand isn't leveraging Instagram,<br/><LinearGradient gradient={["to right", "fde00, #ffffff"]}> it's time to make a powerful shift. And if you're already there, let's elevate your presence daily.</LinearGradient> */}
           </h1>
-          <p className="text-2xl my-2 font-light mt-5">
-            Create end-to-end content for your Instagram. We will create Reels,
-            Carousels, Memes & Daily Stories for your page. Grow your Instagram
-            page organically and build a community of followers that convert to
-            paid customers.
+          <p className="md:text-2xl text-1xl my-2 font-medium mt-5 ">
+          At Brandroot Media, we specialize in crafting captivating content tailored specifically for Instagram.
+          From stunning graphics to engaging video edits, we're your one-stop solution for all things visual. Our team creates Reels that stop the scroll, Carousels that tell your story, Memes that resonate with your audience, and Daily Stories that keep them coming back for more.
+          But it's not just about aesthetics - it's about results. We're dedicated to growing your Instagram presence organically, fostering a vibrant community of followers who aren't just numbers but potential customers ready to convert.
+          Elevate your brand on Instagram with Brandroot Media - where creativity meets conversion."
           </p>
-          <button className="my-10 bg-gradient-to-br from-yellow-500 to-red-600 text-black font-semibold px-7 py-2.5 text-2xl rounded">
+          {/* <button className="my-10 bg-gradient-to-br from-purple-500 to-gray-600 text-black font-semibold px-7 py-2.5 text-2xl rounded">
             Go Viral
-          </button>
+          </button> */}
         </div>
       </div>
       <div>
-        <TwoCardsEffect
-          rotate1={"-rotate-[2deg]"}
-          rotate2={"rotate-[2deg]"}
+        {/* <TwoCardsEffect
+          rotate1={"-rotate-[1deg]"}
+          rotate2={"rotate-[1deg]"}
           children={
-            <h1 className="text-xl md:text-5xl font-semibold text-center py-10 px-2 md:px-0 text-black">
-              Full Refund If We Dont Beat Your Current Views
+            <h1 className="text-xl md:text-4xl font-semibold text-center py-10 px-2 md:px-0 text-white">
+              Brandroot Media Agency - Guaranteed Results or Your Money Back!
             </h1>
           }
-        />
+        /> */}
+        <TwoCardsEffect
+          rotate1={"-rotate-[1deg]"}
+          rotate2={"rotate-[1deg]"}>
+          <h1 className="text-xl md:text-4xl font-semibold text-center py-10 px-2 md:px-0 text-white">
+            Brandroot Media Agency - Guaranteed Results or Your Money Back!
+          </h1>
+        </TwoCardsEffect>
+
       </div>
     </div>
   );

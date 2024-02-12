@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 
 import { EffectCube, Pagination, Autoplay } from "swiper/modules";
 
-export default function ImageCubeEffect({ images, style, dalayTime }) {
+export default function ImageCubeEffect({ images, style }) {
   return (
     <Swiper
       effect={"cube"}
