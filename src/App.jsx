@@ -74,10 +74,10 @@ export default function App() {
         {screenSize !== "small" ? (
           <div className="flex justify-between gap-10 text-[22px] items-center">
             <a href="#services">Services</a>
-            <a href="#clientwords">client’s words</a>
-            <a href="#clietgrowth">clients growth</a>
+            <a href="#clientwords">Client’s Words</a>
+            <a href="#clietgrowth">Clients Growth</a>
             <a href="#blogs">Blogs</a>
-            <a href="#contactus">Contact us</a>
+            <a href="#contactus">Contact Us</a>
           </div>
         ) : (
           <div onClick={() => setShowMenu(!showMenu)}>
@@ -94,10 +94,10 @@ export default function App() {
             alt=""
           />
             <a href="#services">Services</a>
-            <a href="#clientwords">Client’s words</a>
-            <a href="#clientgrowth">Clients growth</a>
+            <a href="#clientwords">Client’s Words</a>
+            <a href="#clientgrowth">Clients Growth</a>
             <a href="#blogs">Blogs</a>
-            <a href="#contactus">Contact us</a>
+            <a href="#contactus">Contact Us</a>
         </div>
       ) : null}
 

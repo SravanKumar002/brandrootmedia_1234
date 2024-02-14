@@ -65,7 +65,7 @@ const clients = [
 export default function Services() {
   return (
     <div className="mt-56 mb-36" id="services">
-      <h1 className="text-4xl md:text-[55px] font-medium tracking-tight leading-[35px] md:leading-[60px]">
+      <h1 className="text-4xl md:text-[55px] font-poppins tracking-tight leading-[35px] md:leading-[60px]">
         Here's what <LinearGradient gradient={["to right", "#fdde00 ,#ffffff"]}>we will do for you</LinearGradient>
       </h1>
       <div className="flex gap-20 my-4 mt-16 gap-x-40 gap-y-40 px-8 md:px-0 ">
@@ -115,7 +115,7 @@ export default function Services() {
 
        </div>
       <div className="my-56" id="clientwords">
-        <h1 className="text-3xl md:text-[55px] font-medium tracking-tight  md:leading-[60px] mb-7 md:mb-20">
+        <h1 className="text-3xl md:text-[55px] font-poppins tracking-tight  md:leading-[60px] mb-7 md:mb-20">
           Hear from our{" "}
           <LinearGradient gradient={["to right", "#fdde00 ,#ffffff"]}>
             Happy Clients

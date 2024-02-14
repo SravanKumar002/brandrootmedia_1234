@@ -5,7 +5,7 @@ import TwoCardsEffect from "../components/TwoCardsEffect";
 export default function Results() {
   return (
     <div className="mx-5 my-64">
-      <h1 className="text-[50px] font-medium tracking-tight leading-[60px] mt-36">
+      <h1 className="text-[50px] font-poppins tracking-tight leading-[60px] mt-36">
       Success Stories: Brands Thriving with{" "}
         <LinearGradient gradient={["to right", "#fdde00 ,#ffffff"]}>
         Brandroot Media
@@ -64,10 +64,10 @@ export default function Results() {
           />
         </div>
         <div className="w-[90%]">
-          <p className="text-white-600 md:text-4xl text-2xl md:leading-[70px] leading-[24px] mb-5 md:mb-20 md:ml-[-220px] font-bold">
+          <p className="text-white-600 md:text-4xl text-2xl md:leading-[70px] leading-[24px] mb-5 md:mb-20 md:ml-[-220px] font-poppins">
             <LinearGradient gradient={["to right", "#fdde00 ,#ffffff"]}>Brandroot Media - Your Online Creative Hub</LinearGradient>
           </p>
-          <h1 className="md:text-[30px] md:text-[40px] text-2xl font-medium tracking-normal md:leading-[10px] md:leading-[35px]">
+          <h1 className="md:text-[30px] md:text-[40px] text-2xl font-poppins tracking-normal md:leading-[20px] md:leading-[42px]">
             If your brand isn't leveraging Instagram,<br/>
             <LinearGradient gradient={["to right", "#fdde00 ,#ffffff"]}>
               {" "}
@@ -75,7 +75,7 @@ export default function Results() {
             </LinearGradient>
             {/* If youit's time to make a powerful shift. And if you're already there, let's elevate your presence daily.it's time to make a powerful shift. And if you're already there, let's elevate your presence daily. brand isn't leveraging Instagram,<br/><LinearGradient gradient={["to right", "fde00, #ffffff"]}> it's time to make a powerful shift. And if you're already there, let's elevate your presence daily.</LinearGradient> */}
           </h1>
-          <p className="md:text-2xl text-1xl my-2 font-medium mt-5 ">
+          <p className="md:text-2xl text-1xl my-2 font-poppins mt-5 ">
           At Brandroot Media, we specialize in crafting captivating content tailored specifically for Instagram.
           From stunning graphics to engaging video edits, we're your one-stop solution for all things visual. Our team creates Reels that stop the scroll, Carousels that tell your story, Memes that resonate with your audience, and Daily Stories that keep them coming back for more.
           But it's not just about aesthetics - it's about results. We're dedicated to growing your Instagram presence organically, fostering a vibrant community of followers who aren't just numbers but potential customers ready to convert.
@@ -99,7 +99,7 @@ export default function Results() {
         <TwoCardsEffect
           rotate1={"-rotate-[1deg]"}
           rotate2={"rotate-[1deg]"}>
-          <h1 className="text-xl md:text-4xl font-semibold text-center py-10 px-2 md:px-0 text-white">
+          <h1 className="text-xl md:text-4xl font-poppins text-center py-10 px-2 md:px-0 text-white">
             Brandroot Media Agency - Guaranteed Results or Your Money Back!
           </h1>
         </TwoCardsEffect>

@@ -11,7 +11,7 @@ export default function ClientCard({ img, p, name, comp }) {
         </p>
       </div>
       <div className="w-full text-right">
-        <h1 className="text-2xl md:text-2xl font-medium">
+        <h1 className="text-2xl md:text-2xl font-poppins">
           <LinearGradient gradient={["to bottom", "#fdde00 ,#ffffff"]}>
             {name}
           </LinearGradient>

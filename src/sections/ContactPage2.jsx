@@ -7,7 +7,7 @@ export default function ContactPage() {
   return (
     <div className="flex md:flex-row flex-col md:items-center justify-between md:gap-20 gap-5 items-center">
       {screenSize === "small" ? (
-        <h1 className="text-3xl font-medium my-0">
+        <h1 className="text-3xl ffont-poppins my-0">
           Meet{" "}
           <LinearGradient gradient={["to bottom", "#fdde00 ,#ffffff"]}>
             The Founder
@@ -27,7 +27,7 @@ export default function ContactPage() {
             className="w-[65vh] h-[70vh] rounded-xl object-cover"
           />
         </TwoCardsEffect>
-        <div className="bg-gradient-to-r from-yellow-500 to-white-600 py-2 absolute bottom-[500px] md:bottom-[540px] w-fit md:right-56 right-[160px] text-black font-medium -rotate-[5deg] rounded-xl px-10 text-sm md:text-[16px] whitespace-nowrap right-0 left-0">
+        <div className="bg-gradient-to-r from-yellow-500 to-white-600 py-2 absolute bottom-[500px] md:bottom-[540px] w-fit md:right-56 right-[160px] text-black font-poppins -rotate-[5deg] rounded-xl px-10 text-sm md:text-[16px] whitespace-nowrap right-0 left-0">
           <h1>Nithish Malhotra</h1>
           <div className="flex justify-between items-center">
             <a href="">
@@ -71,7 +71,7 @@ export default function ContactPage() {
 
       <div className="md:w-[100vh]">
         {screenSize === "large" || screenSize === "medium" ? (
-          <h1 className="text-3xl font-medium my-8">
+          <h1 className="text-3xl font-poppins my-8">
             Meet{" "}
             <LinearGradient gradient={["to bottom", "#fdde00 ,#ffffff"]}>
               The Founder
@@ -79,10 +79,10 @@ export default function ContactPage() {
           </h1>
         ) : null}
 
-      <h1 className="text-5xl md:text-4xl font-medium my-4">
+      <h1 className="text-5xl md:text-4xl font-poppins my-4">
         Nithish Malhotra
         </h1>
-        <p className="text-2xl md:text-xl -mt-4 text-white-400 font-medium">
+        <p className="text-2xl md:text-xl -mt-4 text-white-400 font-poppins">
           250,000+ Youtube | 150,000+ Instagram
         </p>
         <p className="text-[20px] md:text-2xl my-4 md:my-10 font-light mb-56 md:mb-48">

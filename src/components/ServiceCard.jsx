@@ -15,10 +15,10 @@ export default function ServiceCard({ h, p }) {
           onMouseLeave={() => setHovering(false)}
           className="p-6 hover:text-black border-2 bg-black hover:bg-gradient-to-br hover:from-yellow-400 hover:to-white-500 cursor-pointer border-white-700 rounded-xl rotate-[5deg] z-10 w-80 h-[260px] md:h-[260px]"
         >
-          <h1 className="text-[40px] leading-[42px] md:text-[40px] font-medium tracking-tight md:leading-[38px] mb-5">
+          <h1 className="text-[40px] leading-[42px] md:text-[40px] font-poppins tracking-tight md:leading-[38px] mb-5">
             {h}
           </h1>
-          <p className="md:text-2xl text-xl font-light ">{p}</p>
+          <p className="md:text-2xl text-xl font-poppins">{p}</p>
         </div>
       </div>
     </Tilt>

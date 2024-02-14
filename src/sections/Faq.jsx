@@ -47,7 +47,7 @@ const FAqs = [
 export default function Faq() {
   return (
     <div className="mt-[120px]">
-      <h1 className="text-5xl md:text-7xl font-bold tracking-wide mb-8">
+      <h1 className="text-5xl md:text-7xl font-poppins tracking-wide mb-8">
         FAQs
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-7 gap-y-0">

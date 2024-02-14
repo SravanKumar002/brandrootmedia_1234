@@ -17,7 +17,7 @@ export default function FaqCard({ question, answer }) {
         </div>
 
         <Collapse in={showAns}>
-          <div className={`mt-8 mb-0 text-xl font-light overflow-hidden`}>
+          <div className={`mt-8 mb-0 text-xl font-poppins overflow-hidden`}>
             <p>{answer}</p>
           </div>
         </Collapse>
