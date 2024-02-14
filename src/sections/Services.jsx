@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 
 const more_cards = [
   {
-    h: "vertical content",
+    h: "Vertical Content",
     p: "Our visual design experts will create aesthetic designs that stand out",
   },
   {
@@ -79,7 +79,7 @@ export default function Services() {
             enabled: true,
           }}
           autoplay={{
-            delay: 2000, // specify autoplay delay in milliseconds
+            delay: 3500, // specify autoplay delay in milliseconds
             disableOnInteraction: true, // enable autoplay even after user interaction
           }}
           breakpoints={{
