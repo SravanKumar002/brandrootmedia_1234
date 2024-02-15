@@ -64,7 +64,7 @@ export default function App() {
     //   <ContactPage2 />
     //   <Footer />
     // </div>
-    <div className="md:mx-40 mx-4 my-8 font-sans text-white">
+    <div className="md:mx-40 mx-4 my-8 font-kanit text-white">
       <nav className="flex w-full justify-between items-center">
         <img
           src="https://ik.imagekit.io/7saglhzb5/BR.png?updatedAt=1707499505238"
@@ -102,11 +102,12 @@ export default function App() {
       ) : null}
 
       <FirstSection />
+      <Services />
       <Portfolio />
       <Results />
       <Price />
       <Faq />
-      <Services />
+      
       <Blogs/>
       <ContactPage />
       <ContactPage2 />

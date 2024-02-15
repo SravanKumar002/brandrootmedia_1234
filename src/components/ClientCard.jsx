@@ -6,12 +6,12 @@ export default function ClientCard({ img, p, name, comp }) {
       <img src={img} alt="" className="h-36 rounded-full" />
       <img src="https://growthrocket.media/inv.png" className="" alt="" />
       <div className=" pb-10 border-b border-white">
-        <p className="text-[17px] md:text-[15px] md:overflow-auto scrollable-div md:px-2 md:h-48 tracking-wide font-light">
+        <p className="text-[17px] md:text-[15px] md:overflow-auto scrollable-div md:px-2 md:h-48 tracking-wide font-kanit">
           {p}
         </p>
       </div>
       <div className="w-full text-right">
-        <h1 className="text-2xl md:text-2xl font-poppins">
+        <h1 className="text-2xl md:text-2xl font-kanit">
           <LinearGradient gradient={["to bottom", "#fdde00 ,#ffffff"]}>
             {name}
           </LinearGradient>

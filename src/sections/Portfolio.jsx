@@ -17,7 +17,7 @@ export default function Portfolio() {
   const screenSize = useScreenSize();
   return (
     <div id="portfolio" className="mx-5 mb-36">
-      <h1 className="text-[30px] md:text-[55px] font-poppins tracking-tight leading-[32px] md:leading-[60px]">
+      <h1 className="text-[30px] md:text-[55px] font-kanit tracking-tight leading-[32px] md:leading-[60px]">
         We create the highest quality content for brands.{" "}
         <LinearGradient gradient={["to right", "#fdde00 ,#ffffff"]}>
           And we will do the same for you
@@ -63,7 +63,7 @@ export default function Portfolio() {
       </div>
       <div>
         <div>
-          <h1 className="text-[30px] md:text-[55px] font-poppins tracking-tight leading-[32px] md:leading-[60px] mt-36">
+          <h1 className="text-[30px] md:text-[55px] font-kanit tracking-tight leading-[32px] md:leading-[60px] mt-36">
             Numbers that speak{" "}
             <LinearGradient gradient={["to right", "#fdde00 ,#ffffff"]}>
               louder than words
@@ -96,7 +96,7 @@ export default function Portfolio() {
   rotate1={"-rotate-[1deg]"}
   rotate2={"rotate-[1deg]"}>
   <div className="py-7">
-    <div className="text-white text-4xl flex md:flex-row flex-col gap-10 md:justify-around font-poppins">
+    <div className="text-white text-4xl flex md:flex-row flex-col gap-10 md:justify-around font-kanit">
       <p className="text-center">
         25 Million+ <br />
         <span className="text-2xl">Views</span>

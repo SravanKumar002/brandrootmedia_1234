@@ -2,14 +2,14 @@ export default function Footer() {
   return (
     <div id="contactus" className="w-full flex flex-col items-start md:items-center">
       <p className="text-3xl font-medium text-red-500">CONTACT US</p>
-      <h1 className="text-[55px] font-poppins tracking-tight leading-[60px] my-4">
+      <h1 className="text-[55px] font-kanit tracking-tight leading-[60px] my-4">
       Lets connect
       </h1>
       <div className="flex md:flex-row flex-col items-start md:gap-10">
-        <button className="md:my-10 bg-gradient-to-br from-yellow-500 to-yellow-600 text-black font-poppins px-7 py-2.5 md:text-2xl text-xl rounded">
+        <button className="md:my-10 bg-gradient-to-br from-yellow-500 to-yellow-600 text-black font-kanit px-7 py-2.5 md:text-2xl text-xl rounded">
           Book Call
         </button>
-        <button className="my-10 bg-gradient-to-br from-yellow-500 to-yellow-600 text-black font-poppins px-7 py-2.5 md:text-2xl text-xl rounded">
+        <button className="my-10 bg-gradient-to-br from-yellow-500 to-yellow-600 text-black font-kanit px-7 py-2.5 md:text-2xl text-xl rounded">
           Chat On Whatsapp
         </button>
       </div>

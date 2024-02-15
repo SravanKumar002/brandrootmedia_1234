@@ -47,7 +47,7 @@ export default function FirstSection() {
       <div className="flex md:flex-row flex-col justify-between">
         <div className="">
           
-          <LinearGradient gradient={["to right","#fdde00,#ffffff"]} className="md:text-[6vh] text-[4vh] font-[700] font-poppins">
+          <LinearGradient gradient={["to right","#fdde00,#ffffff"]} className="md:text-[6vh] text-[4vh] font-[700] font-kanit">
             Your One-Stop Solution <br/>for Content Creation Success
           </LinearGradient><br/>
           
@@ -74,7 +74,7 @@ export default function FirstSection() {
         </div>
       </div>
 
-      <div className="my-16">
+      {/* <div className="my-16">
         <h1 className="text-3xl md:text-6xl font-poppins tracking-tight">
           Brands That{" "}
           <LinearGradient gradient={["to right", "#fdde00 ,#ffffff"]}>
@@ -115,7 +115,7 @@ export default function FirstSection() {
           <div className="swiper-button-prev text-slate-100 animate-bounce-right"></div>
           </Swiper>
         </TwoCardsEffect>
-      </div>
+      </div> */}
     </div>
   );
 }

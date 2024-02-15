@@ -2,7 +2,7 @@ const Blogs = () => {
     return (
         <div className='mx-5 mb-36 p-6 bg-yellow-700 rounded-lg' id="blogs">
 
-            <h1 className='text-4xl font-poppins text-white-400 mb-4'>Tech Talks: Exploring the Future</h1>
+            <h1 className='text-4xl font-kanit text-white-400 mb-4'>Tech Talks: Exploring the Future</h1>
             <div className='text-lg text-white'>
                 <p>
                     Welcome to BrandRoot Media, where technology meets creativity! At BrandRoot Media, we are passionate about crafting innovative solutions that elevate your digital presence to new heights. With our team of experienced professionals, we specialize in web design, app development, digital marketing, and more. Whether you are a startup looking to make your mark or an established business aiming to stay ahead of the curve, we are here to turn your vision into reality. Explore the latest trends, insights, and tech updates with our blog, and let BrandRoot Media be your trusted partner on your digital journey.
