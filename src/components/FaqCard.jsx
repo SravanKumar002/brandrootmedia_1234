@@ -6,7 +6,7 @@ import { Collapse } from "@mui/material";
 export default function FaqCard({ question, answer }) {
   const [showAns, setShowAns] = useState(false);
   return (
-    <div className="flex-1 my-3  mb-6">
+    <div className="flex-1 my-3 mb-6">
       <div
         onClick={() => setShowAns(!showAns)}
         className="border-2 border-white-700 h-fit cursor-pointer rounded-[10px] custom-shadow p-6"
@@ -17,7 +17,7 @@ export default function FaqCard({ question, answer }) {
         </div>
 
         <Collapse in={showAns}>
-          <div className={`mt-8 mb-0 text-xl font-poppins overflow-hidden`}>
+          <div className={`mt-8 mb-0 text-xl font-kanit overflow-hidden`}>
             <p>{answer}</p>
           </div>
         </Collapse>

@@ -7,11 +7,11 @@ export default function ContactPage() {
   return (
     <div id="contactpage" className="flex md:flex-row flex-col md:items-center justify-between md:gap-20 gap-5 items-center">
       {screenSize === "small" ? (
-        <h1 className=" ">
+        <h1 className="text-3xl font-kanit my-0">
           Meet{" "}
-          <LinearGradient gradient={["to bottom", "#fdde00 ,#ffffff"]}>
-            The Founder
-          </LinearGradient>
+        <LinearGradient gradient={["to bottom", "#fdde00 ,#ffffff"]}>
+            The Co-Founder
+          </LinearGradient> 
         </h1>
       ) : null}
       <div className="p-2 relative">
@@ -27,7 +27,7 @@ export default function ContactPage() {
             className="w-[65vh] h-[70vh] rounded-xl object-cover"
           />
         </TwoCardsEffect>
-        <div className="bg-gradient-to-r from-yellow-500 to-white-600 py-2 absolute bottom-[500px] md:bottom-[540px] w-fit md:right-56 right-[160px] text-black font-kanit -rotate-[5deg] rounded-xl px-10 text-sm md:text-[16px] whitespace-nowrap right-0 left-0">
+        <div className="bg-gradient-to-r from-yellow-500 to-yellow-600 py-2 absolute bottom-[500px] md:bottom-[540px] w-fit md:right-56 right-[160px] text-black font-kanit -rotate-[5deg] rounded-xl px-10 text-sm md:text-[16px] whitespace-nowrap right-0 left-0">
           <h1>Abhu Talha</h1>
           <div className="flex justify-between items-center">
             <a href="">
@@ -74,7 +74,7 @@ export default function ContactPage() {
           <h1 className="text-3xl font-medium my-8">
             Meet{" "}
             <LinearGradient gradient={["to bottom", "#fdde00 ,#ffffff"]}>
-              The Founder
+              The Co-Founder
             </LinearGradient>
           </h1>
         ) : null}

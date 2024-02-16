@@ -1,6 +1,6 @@
 const Blogs = () => {
     return (
-        <div className='mx-5 mb-36 p-6 bg-yellow-700 rounded-lg' id="blogs">
+        <div className='mx-5 mb-36 mt-40 p-6 bg-yellow-700 rounded-lg' id="blogs">
 
             <h1 className='text-4xl font-kanit text-white-400 mb-4'>Tech Talks: Exploring the Future</h1>
             <div className='text-lg text-white'>

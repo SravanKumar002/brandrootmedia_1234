@@ -64,7 +64,7 @@ export default function App() {
     //   <ContactPage2 />
     //   <Footer />
     // </div>
-    <div className="md:mx-40 mx-4 my-8 font-kanit text-white">
+    <div className="md:mx-40 mx-4 my-6 mt-0 font-kanit text-white">
       <nav className="flex w-full justify-between items-center">
         <img
           src="https://ik.imagekit.io/7saglhzb5/BR.png?updatedAt=1707499505238"
@@ -72,7 +72,7 @@ export default function App() {
           className="h-10 w-15"
         />
         {screenSize !== "small" ? (
-          <div className="flex justify-between gap-10 text-[22px] items-center">
+          <div className="flex justify-between gap-8 text-[22px] items-center">
             <a href="#services">Services</a>
             <a href="#clientwords">Client’s Words</a>
             <a href="#clietgrowth">Clients Growth</a>

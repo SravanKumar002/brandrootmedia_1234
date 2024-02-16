@@ -43,7 +43,7 @@ const brands = [
 
 export default function FirstSection() {
   return (
-    <div className="text-white md:my-44 my-24 mx-0">
+    <div className="text-white md:my-44 my-16 mx-0 mt-0 mb-0">
       <div className="flex md:flex-row flex-col justify-between">
         <div className="">
           
@@ -74,7 +74,7 @@ export default function FirstSection() {
         </div>
       </div>
 
-      {/* <div className="my-16">
+       <div className="my-8 mt-[-20px]" >
         <h1 className="text-3xl md:text-6xl font-poppins tracking-tight">
           Brands That{" "}
           <LinearGradient gradient={["to right", "#fdde00 ,#ffffff"]}>
@@ -115,7 +115,7 @@ export default function FirstSection() {
           <div className="swiper-button-prev text-slate-100 animate-bounce-right"></div>
           </Swiper>
         </TwoCardsEffect>
-      </div> */}
+      </div> 
     </div>
   );
 }
