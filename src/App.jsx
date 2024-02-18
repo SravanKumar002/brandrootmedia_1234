@@ -86,7 +86,7 @@ export default function App() {
         )}
       </nav>
       {showMenu ? (
-        <div className="absolute backdrop-blur-md w-full text-right h-full top-0 flex right-0 flex-col text-3xl text-yellow-600 gap-5 justify-start px-5">
+        <div className="absolute backdrop-blur-md w-full text-left h-full top-0 flex right-0 flex-col text-2xl text-yellow-600 gap-5 justify-start px-5">
           <img
             onClick={() => setShowMenu(!showMenu)}
             src={ham}

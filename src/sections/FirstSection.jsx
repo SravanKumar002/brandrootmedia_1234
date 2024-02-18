@@ -47,7 +47,7 @@ export default function FirstSection() {
       <div className="flex md:flex-row flex-col justify-between">
         <div className="">
           
-          <LinearGradient gradient={["to right","#fdde00,#ffffff"]} className="md:text-[6vh] text-[4vh] font-[700] font-kanit">
+          <LinearGradient gradient={["to right","#fdde00,#ffffff"]} className="md:text-[6vh] text-[4vh] font-[700] font-lato">
             Your One-Stop Solution <br/>for Content Creation Success
           </LinearGradient><br/>
           
@@ -75,7 +75,7 @@ export default function FirstSection() {
       </div>
 
        <div className="my-8 mt-[-20px]" >
-        <h1 className="text-3xl md:text-6xl font-poppins tracking-tight">
+        <h1 className="text-3xl md:text-6xl font-bold tracking-tight">
           Brands That{" "}
           <LinearGradient gradient={["to right", "#fdde00 ,#ffffff"]}>
             Trust Us

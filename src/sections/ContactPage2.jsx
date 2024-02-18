@@ -29,7 +29,7 @@ export default function ContactPage() {
         </TwoCardsEffect>
         <div className="bg-gradient-to-r from-yellow-500 to-yellow-600 py-2 absolute bottom-[500px] md:bottom-[540px] w-fit md:right-56 right-[160px] text-black font-kanit -rotate-[5deg] rounded-xl px-10 text-sm md:text-[16px] whitespace-nowrap right-0 left-0">
           <h1>Nithish Malhotra</h1>
-          <div className="flex justify-between items-center">
+          {/* <div className="flex justify-between items-center">
             <a href="">
               <svg
                 stroke="currentColor"
@@ -65,7 +65,7 @@ export default function ContactPage() {
               </svg>
             </a>
             <p>400,000+</p>
-          </div>
+          </div> */}
         </div>
       </div>
 
